@@ -43,6 +43,7 @@ Show the xacro model of mirobot in rviz
 roslaunch mirobot_moveit_config demo.launch
 ```
 ## 3.2 Control mirobot rviz
+
 Run mirobot_moveit_python/control_mirobot.py, control mirobot for rviz and mirobot
 ```
 'input you control mode(x,y,z,R(roll),P(pitch),Y(yaw):'
@@ -51,6 +52,7 @@ Run mirobot_moveit_python/control_mirobot.py, control mirobot for rviz and mirob
 you can input exit for exit
 
 ## 3.3 Control mirobot machine
+
 Run mirobot_moveit_python/mirobot_control_node.py, subscriber position msg and move machine
 
-
+you can run mirobot_moveit_python/startup_example.py for test machine
