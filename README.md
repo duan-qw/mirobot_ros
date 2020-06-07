@@ -35,14 +35,22 @@ Before ROS control, make sure that your manipulator is in the "homing" position.
 ```
 $ sudo chmod +777 /dev/ttyUSB0
 ```
-If you are using a virtual machine running Linux, turn off graphics hardware acceleration, otherwise gazebo may not start properly.
+If you are using a virtual machine running Linux
 
 ## 3.1 Rviz Control Mode:
 Show the xacro model of mirobot in rviz
 ```
 roslaunch mirobot_moveit_config demo.launch
 ```
-## 3.2 Control mirobot 
-Run mirobot_moveit_python/
+## 3.2 Control mirobot rviz
+Run mirobot_moveit_python/control_mirobot.py, control mirobot for rviz and mirobot
+```
+'input you control mode(x,y,z,R(roll),P(pitch),Y(yaw):'
+'input you control postion(w:+,s:-):'
+```
+you can input exit for exit
+
+## 3.3 Control mirobot machine
+Run mirobot_moveit_python/mirobot_control_node.py, subscriber position msg and move machine
 
 
