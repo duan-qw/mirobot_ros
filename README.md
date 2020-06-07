@@ -2,6 +2,7 @@
 Mirobot ROS packages
 These packages support Moveit!, RViz and serial communication with Mirobot.
 It can use in kinetic for python 2.x
+you can mail to duan-qw@dalian-it.com if you have problem
 
 # 1. Download and install
 
